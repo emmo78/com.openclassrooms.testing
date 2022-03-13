@@ -6,4 +6,8 @@ public class Premiertest {
 		return a + b;
 	}
 
+	public float multiplication(int a, int b) {
+		return a * b;
+	}
+
 }

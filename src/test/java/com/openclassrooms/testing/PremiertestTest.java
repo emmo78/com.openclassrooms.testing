@@ -14,9 +14,11 @@ class PremiertestTest {
 
 		// Act
 		int somme = premiertest.add(a, b);
+		float multiplication = premiertest.multiplication(a, b);
 
 		// Assert
 		assertEquals(5, somme);
+		assertEquals(6, multiplication);
 
 	}
 
